@@ -20,7 +20,7 @@ public class FizzBuzzMenu {
                 case 1:
                     // System.out.println("Fizz numbers (1–100):");
                     for (int i = 1; i <= 100; i++) {
-                        if (i % 24 == 0) {
+                        if (i % 3 == 0) {
                             System.out.print(i + " ");
                         }
                     }
